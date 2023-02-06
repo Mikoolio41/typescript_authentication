@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +30,24 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.navbar {
+  background-color: rgb(59, 13, 224);
+  display: flex;
+  justify-content: flex-end;
+  text-align: center;
+  padding: 30px;
+}
+
+.username {
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
 }
 
 @keyframes App-logo-spin {
