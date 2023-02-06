@@ -3,7 +3,11 @@ body {
 }
 
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -33,11 +37,12 @@ body {
 }
 
 .navbar {
-  background-color: rgb(59, 13, 224);
+  background-color: #0c548e;
   display: flex;
   justify-content: flex-end;
   text-align: center;
-  padding: 30px;
+  padding: 20px;
+  width: 100%;
 }
 
 .username {
@@ -48,6 +53,33 @@ a {
   color: white;
   text-decoration: none;
   margin-right: 20px;
+}
+
+.postForm {
+  height: 200px;
+  width: 300px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0c548e;
+  border-radius: 10px;
+}
+
+input,
+textarea {
+  border-radius: 5px;
+  width: 200px;
+  border: none;
+  letter-spacing: 1px;
+}
+
+.submitBtn {
+  background-color: #a9adb5;
+  width: 100px;
+  border: 1px solid rgb(8, 33, 59);
+  height: 30px;
 }
 
 @keyframes App-logo-spin {
