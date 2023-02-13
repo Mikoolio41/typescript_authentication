@@ -21,12 +21,15 @@ export const Navbar = () => {
         <>
           <span className="username">{user?.displayName}</span>
           <img
+            className="userPic"
             src={user?.photoURL || ""}
             alt="user_photo"
             width="20"
             height="20"
           />
-          <button onClick={signUserOut}>Log out</button>
+          <button className="logoutBtn" onClick={signUserOut}>
+            Log out
+          </button>
         </>
       )}
     </div>
