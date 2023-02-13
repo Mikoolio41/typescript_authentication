@@ -41,7 +41,7 @@ body {
   width: 60px;
   border-radius: 10px;
   border: 1px solid black;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 .logoutBtn:hover {
@@ -122,4 +122,20 @@ textarea {
 .postUsername {
   margin: 5px 10px;
   justify-self: flex-end;
+}
+
+.userLikeSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.likeBtn {
+  border: none;
+  margin-right: 10px;
+  background-color: rgb(244, 244, 244);
+}
+
+.likeBtn:hover {
+  cursor: pointer;
 }
