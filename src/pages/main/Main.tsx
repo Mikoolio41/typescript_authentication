@@ -31,7 +31,7 @@ export const Main = () => {
       <h1>Homepage</h1>
       <div>
         {postsList?.map((post) => (
-          <Post post={post} />
+          <Post key={post.id} post={post} />
         ))}
       </div>
     </div>
